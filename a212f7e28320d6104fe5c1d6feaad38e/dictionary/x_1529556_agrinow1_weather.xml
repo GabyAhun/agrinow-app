@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f8dfc43e83a8d6104fe5c1d6feaad3c9" label="Weather" max_length="40" name="x_1529556_agrinow1_weather" type="collection">
+        <element choice="1" label="Wind direction" max_length="40" name="wind_direction" type="choice">
+            <choice/>
+        </element>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Rain" max_length="40" name="rain" type="boolean"/>
+        <element label="Visibility" max_length="40" name="visibility" type="string"/>
+        <element label="Temperature" max_length="40" name="temperature" type="integer"/>
+    </element>
+</database>

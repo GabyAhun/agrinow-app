@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="11fb0cb283a8d6104fe5c1d6feaad3fe" label="Animals" max_length="40" name="x_1529556_agrinow1_animals" type="collection">
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element choice="1" display="true" label="Category" max_length="40" name="category" type="choice">
+            <choice/>
+        </element>
+        <element label="Born date" max_length="40" name="born_date" type="glide_date"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

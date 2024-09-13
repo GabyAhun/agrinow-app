@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="85fd083e83a8d6104fe5c1d6feaad321" label="Assets" max_length="40" name="x_1529556_agrinow1_assets" type="collection">
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element label="Warranty" max_length="40" name="warranty" type="glide_date"/>
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
