@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d9a2bfea83e0d6104fe5c1d6feaad305" extends="task" label="Requests" max_length="40" name="x_1529556_agrinow1_requests" type="collection"/>
+</database>
