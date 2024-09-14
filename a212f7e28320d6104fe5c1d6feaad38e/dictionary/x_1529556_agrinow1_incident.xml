@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="09f3776e83e0d6104fe5c1d6feaad339" extends="incident" max_length="40" name="x_1529556_agrinow1_incident" type="collection"/>
+    <element attributes="hasLabels=true" db_object_id="09f3776e83e0d6104fe5c1d6feaad339" extends="incident" max_length="40" name="x_1529556_agrinow1_incident" type="collection"/>
 </database>

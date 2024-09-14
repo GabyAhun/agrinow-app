@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="75c7868783a452104fe5c1d6feaad3d8" extends="cmdb_ci" label="Agriculture Assets" max_length="40" name="x_1529556_agrinow1_u_cmdb_ci_agriculture_assets" type="collection"/>
+</database>
