@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This script is going to set the ID field based on the Category.</description>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Automatic ID from Category</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var animalCategory = g_form.getValue('category');
+	
+	var animalNumber = g_form.getValue('number');
+	var categoryArray = animalNumber.split('');
+	var lastFiveChars = categoryArray.slice(-5);
+	var resultString = lastFiveChars.join('');
+
+	g_form.setValue('id', resultString);
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 16:10:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b242f5783a05a104fe5c1d6feaad362</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Automatic ID from Category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_client_0b242f5783a05a104fe5c1d6feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 15:20:23</sys_updated_on>
+        <table>x_1529556_agrinow1_animals</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sys_script_client_0b242f5783a05a104fe5c1d6feaad362</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;This script is going to set the ID field based on the Category.&lt;/description&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Automatic ID from Category&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var animalCategory = g_form.getValue('category');
+	
+	var animalNumber = g_form.getValue('number');
+	var categoryArray = animalNumber.split('');
+	var lastFiveChars = categoryArray.slice(-5);
+	var resultString = lastFiveChars.join('');
+
+	g_form.setValue('id', resultString);
+
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-15 16:10:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0b242f5783a05a104fe5c1d6feaad362&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Automatic ID from Category&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AgriNow App" source="x_1529556_agrinow1"&gt;a212f7e28320d6104fe5c1d6feaad38e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AgriNow App"&gt;a212f7e28320d6104fe5c1d6feaad38e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0b242f5783a05a104fe5c1d6feaad362&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-16 15:20:23&lt;/sys_updated_on&gt;&lt;table&gt;x_1529556_agrinow1_animals&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2144377477</payload_hash>
+        <record_name>Automatic ID from Category</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 15:20:23</sys_created_on>
+        <sys_id>9403e0b383e8de104fe5c1d6feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191fb6bacd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 15:20:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1c03e0b314e8de10070673a028f24259</update_guid>
+        <update_guid_history>1c03e0b314e8de10070673a028f24259:2144377477,e2e1e47382e8de109dadc0bec7139c65:-1805786089,e90060bfb1a8de10f26bb87674a27aa4:1812740500,e0adef1fc7245a10c4c46464a740046b:-1805786089,22ec679f2c245a104de4dd6aa69ee635:1222723134,1bdca35fc0a05a109af6f89b33cf1bee:-2134262128,f27caf5bb2245a10ad715ee22a318149:810450774,2429231bdc245a10df49f1805ad98539:1462404513,16d8631bd0245a10848a87d12cfba52b:2024655114,dac8efd7d3245a10300520479144bacd:169119718,bf86abd7aae05a1030a5f89395dca86f:-356932141,75c46b1732a05a10a8e7779f0a4455d7:-1338154601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-16 15:48:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1f7ee750fcfe4b1283e0df9c31a4c931</sys_id>
+        <sys_metadata>0b242f5783a05a104fe5c1d6feaad362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automatic ID from Category</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent display_value="Animals">11fb0cb283a8d6104fe5c1d6feaad3fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_0b242f5783a05a104fe5c1d6feaad362</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0b242f5783a05a104fe5c1d6feaad362">9403e0b383e8de104fe5c1d6feaad35a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-16 15:48:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

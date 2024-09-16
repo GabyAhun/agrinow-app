@@ -21,5 +21,6 @@
                 <element inactive_on_update="false" label="Female" sequence="1" value="Female"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Identity" max_length="50" name="identity" read_only="true" type="string"/>
     </element>
 </database>
