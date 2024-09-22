@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="AgriNow Catalog">4f4f0cc883bc16504fe5c1d6feaad3c0</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 08:34:23</sys_created_on>
+        <sys_id>3aaf408c83bc16504fe5c1d6feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow Catalog.catalog_agrinow_catalog</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_agrinow_catalog">36af08c883bc16504fe5c1d6feaad3a2</sys_portal_page>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_3aaf408c83bc16504fe5c1d6feaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 08:34:23</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sc_catalog_view_mtom_3aaf408c83bc16504fe5c1d6feaad3b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="AgriNow Catalog">4f4f0cc883bc16504fe5c1d6feaad3c0</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 08:34:23</sys_created_on><sys_id>3aaf408c83bc16504fe5c1d6feaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AgriNow Catalog.catalog_agrinow_catalog</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_portal_page display_value="catalog_agrinow_catalog">36af08c883bc16504fe5c1d6feaad3a2</sys_portal_page><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>sc_catalog_view_mtom_3aaf408c83bc16504fe5c1d6feaad3b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 08:34:23</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-1856086450</payload_hash>
+        <record_name>AgriNow Catalog.catalog_agrinow_catalog</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 08:34:23</sys_created_on>
+        <sys_id>beaf408c83bc16504fe5c1d6feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191ff1e54e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 08:34:23</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>b2af408ccdbc16509271f372408f2db5</update_guid>
+        <update_guid_history>b2af408ccdbc16509271f372408f2db5:-1856086450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AgriNow Catalog.catalog_agrinow_catalog">fb6287d083b012104fe5c1d6feaad3a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 16:13:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>5056c84337034c55985bfc1c63218d99</sys_id>
+        <sys_metadata>3aaf408c83bc16504fe5c1d6feaad3b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow Catalog.catalog_agrinow_catalog</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_3aaf408c83bc16504fe5c1d6feaad3b2</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_3aaf408c83bc16504fe5c1d6feaad3b2">beaf408c83bc16504fe5c1d6feaad3b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 16:13:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

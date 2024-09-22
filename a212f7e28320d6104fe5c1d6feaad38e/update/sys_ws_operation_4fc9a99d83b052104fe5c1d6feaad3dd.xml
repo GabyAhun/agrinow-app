@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>OpenMeteoAPI</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // Open-Meteo API URL
+    var url = "https://api.open-meteo.com/v1/forecast?latitude=46.0725&longitude=18.2308&daily=temperature_2m_max,temperature_2m_min,sunshine_duration,precipitation_sum,wind_speed_10m_max&timezone=auto";
+
+    var r = new sn_ws.RESTMessageV2('OPEN-METEO REST Message', 'GET');
+    //r.setHttpMethod('GET');
+    //r.setEndpoint(url);
+
+    r.setHttpTimeout(10000);
+
+    var responseObj = r.execute();
+    var responseBody = responseObj.getBody();
+    var statusCode = responseObj.getStatusCode();
+
+	// Response body has to be in JSON format, i forgot it and the troulbeshoot process was 2-3 hours long :)
+	var parsedData = JSON.parse(responseBody);
+
+
+    if (statusCode === 200) {
+        response.setStatus(200);
+        response.setBody(parsedData);
+    } else {
+        response.setStatus(statusCode);
+        response.setBody("Error fetching data from Open-Meteo: " + parsedData);
+		// error message will be in JSON format also
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1529556_agrinow1/weather_datas_api/weather</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/weather</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 12:31:43</sys_created_on>
+        <sys_id>4fc9a99d83b052104fe5c1d6feaad3dd</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>OpenMeteoAPI</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_ws_operation_4fc9a99d83b052104fe5c1d6feaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 13:56:28</sys_updated_on>
+        <web_service_definition display_value="Weather Datas API">7839ad5d83b052104fe5c1d6feaad35d</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

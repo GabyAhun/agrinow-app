@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>OPEN-METEO REST Message [ GET ]</qualified_name>
+        <rest_endpoint>https://api.open-meteo.com/v1/forecast?latitude=46.0725&amp;longitude=18.2308&amp;daily=temperature_2m_max,temperature_2m_min,sunshine_duration,precipitation_sum,wind_speed_10m_max&amp;timezone=auto</rest_endpoint>
+        <rest_message display_value="OPEN-METEO REST Message">ece815d5833c12104fe5c1d6feaad367</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 11:07:24</sys_created_on>
+        <sys_id>1709911d837c12104fe5c1d6feaad32a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GET</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_1709911d837c12104fe5c1d6feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 11:15:55</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

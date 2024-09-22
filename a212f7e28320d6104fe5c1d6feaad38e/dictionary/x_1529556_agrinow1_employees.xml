@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="099d483e83a8d6104fe5c1d6feaad3be" extends="sys_user" label="Employees" max_length="40" name="x_1529556_agrinow1_employees" type="collection">
-        <element label="Phone number" max_length="40" name="phone_number" type="phone_number_e164"/>
-    </element>
-</database>
