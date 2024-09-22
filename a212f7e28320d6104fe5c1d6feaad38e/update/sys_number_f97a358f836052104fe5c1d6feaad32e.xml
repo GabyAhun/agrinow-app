@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1529556_agrinow1_fields">x_1529556_agrinow1_fields</category>
+        <maximum_digits>5</maximum_digits>
+        <number>1000</number>
+        <prefix>FIELD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-14 13:47:03</sys_created_on>
+        <sys_id>f97a358f836052104fe5c1d6feaad32e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FIELD</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_number_f97a358f836052104fe5c1d6feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-14 13:47:30</sys_updated_on>
+    </sys_number>
+</record_update>

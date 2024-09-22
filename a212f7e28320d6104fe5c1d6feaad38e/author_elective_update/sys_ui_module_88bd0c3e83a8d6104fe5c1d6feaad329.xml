@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="AgriNow App">ff437f2e83e0d6104fe5c1d6feaad3b5</application>
+        <filter/>
+        <name>Employees</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1529556_agrinow1.employees_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-13 11:13:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88bd0c3e83a8d6104fe5c1d6feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_ui_module_88bd0c3e83a8d6104fe5c1d6feaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-13 11:13:19</sys_updated_on>
+        <table>x_1529556_agrinow1_employees</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sys_ui_module_88bd0c3e83a8d6104fe5c1d6feaad329</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AgriNow App">ff437f2e83e0d6104fe5c1d6feaad3b5</application><filter/><name>Employees</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1529556_agrinow1.employees_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-13 11:13:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>88bd0c3e83a8d6104fe5c1d6feaad329</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employees</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>sys_ui_module_88bd0c3e83a8d6104fe5c1d6feaad329</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-13 11:13:19</sys_updated_on><table>x_1529556_agrinow1_employees</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1705677256</payload_hash>
+        <record_name>Employees</record_name>
+        <reverted_from/>
+        <source>b8ccc0fa83a8d6104fe5c1d6feaad383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-13 11:13:19</sys_created_on>
+        <sys_id>80bd0c3e83a8d6104fe5c1d6feaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191eb1667020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-13 11:13:19</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ccbd0c3ef7a8d610690a014ed3762d2a</update_guid>
+        <update_guid_history>ccbd0c3ef7a8d610690a014ed3762d2a:1705677256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 09:21:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1788532d9fc746dca58d5cf387e61ca9</sys_id>
+        <sys_metadata>88bd0c3e83a8d6104fe5c1d6feaad329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_88bd0c3e83a8d6104fe5c1d6feaad329</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_88bd0c3e83a8d6104fe5c1d6feaad329">80bd0c3e83a8d6104fe5c1d6feaad338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 09:21:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

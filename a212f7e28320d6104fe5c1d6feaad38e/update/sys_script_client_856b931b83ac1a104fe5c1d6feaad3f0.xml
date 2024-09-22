@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This script is going to calculate the current age of the animal, based on the born date.</description>
+        <field>born_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Age calculation from Born Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var bornDate = g_form.getValue('born_date');
+
+    if (bornDate) {
+        var birthDate = new Date(bornDate);
+        var today = new Date();
+
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var monthDifference = today.getMonth() - birthDate.getMonth();
+
+        if (monthDifference < 0 || monthDifference == 0 && today.getDate() < birthDate.getDate()) {
+            age--;
+        }
+        g_form.setValue('age', age);
+    } else {
+        g_form.setValue('age', '');
+    }
+
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-15 15:46:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>856b931b83ac1a104fe5c1d6feaad3f0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Age calculation from Born Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_client_856b931b83ac1a104fe5c1d6feaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-15 16:01:05</sys_updated_on>
+        <table>x_1529556_agrinow1_animals</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

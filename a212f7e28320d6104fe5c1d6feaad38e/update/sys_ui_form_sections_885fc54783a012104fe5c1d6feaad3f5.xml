@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="885fc54783a012104fe5c1d6feaad3f5" sys_domain="global" table="x_1529556_agrinow1_incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c5f094783a012104fe5c1d6feaad36a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">805f094783a012104fe5c1d6feaad346</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>985f094783a012104fe5c1d6feaad393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Impact" display_value="Impact" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">985f094783a012104fe5c1d6feaad38d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c5f094783a012104fe5c1d6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">8c5f094783a012104fe5c1d6feaad31b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>805f094783a012104fe5c1d6feaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">485f094783a012104fe5c1d6feaad311</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>945f094783a012104fe5c1d6feaad38d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">505f094783a012104fe5c1d6feaad36f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c5f094783a012104fe5c1d6feaad36e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Cause" display_value="Cause" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">405f094783a012104fe5c1d6feaad36b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885f094783a012104fe5c1d6feaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1529556_agrinow1_incident" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">885fc54783a012104fe5c1d6feaad3f5</sys_ui_form>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1529556_agrinow1_incident" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">845f094783a012104fe5c1d6feaad317</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1529556_agrinow1_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-14 10:38:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885fc54783a012104fe5c1d6feaad3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1529556_agrinow1_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_885fc54783a012104fe5c1d6feaad3f5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-14 10:38:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Service Operations Workspace" name="sow">f5c0a49877413010dc2c885d9f5a999e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
