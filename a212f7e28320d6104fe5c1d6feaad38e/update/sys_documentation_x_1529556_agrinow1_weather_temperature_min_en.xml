@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="temperature_min" label="Temperature min" language="en" table="x_1529556_agrinow1_weather">
+    <sys_documentation element="temperature_min" label="Temperature min (°C)" language="en" table="x_1529556_agrinow1_weather">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>temperature_min</element>
             <help/>
             <hint/>
-            <label>Temperature min</label>
+            <label>Temperature min (°C)</label>
             <language>en</language>
             <name>x_1529556_agrinow1_weather</name>
-            <plural>Temperature mins</plural>
+            <plural>Temperature min (°C)</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-21 12:16:38</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Temperature min</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Temperature min (°C)</sys_name>
             <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
             <sys_policy/>
             <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
             <sys_update_name>sys_documentation_x_1529556_agrinow1_weather_temperature_min_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-21 12:16:38</sys_updated_on>
+            <sys_updated_on>2024-09-24 11:02:11</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
