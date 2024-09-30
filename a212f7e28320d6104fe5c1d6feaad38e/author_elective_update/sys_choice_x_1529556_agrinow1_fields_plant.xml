@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="plant" table="x_1529556_agrinow1_fields" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>plant</element>
+            <name>x_1529556_agrinow1_fields</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 11:22:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>plant</sys_name>
+            <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+            <sys_update_name>sys_choice_x_1529556_agrinow1_fields_plant</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 11:22:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corn</label>
+            <language>en</language>
+            <name>x_1529556_agrinow1_fields</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 11:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 11:25:34</sys_updated_on>
+            <value>Corn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wheat</label>
+            <language>en</language>
+            <name>x_1529556_agrinow1_fields</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 11:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 11:25:34</sys_updated_on>
+            <value>Wheat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Barley</label>
+            <language>en</language>
+            <name>x_1529556_agrinow1_fields</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 11:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 11:25:34</sys_updated_on>
+            <value>Barley</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sugar beet</label>
+            <language>en</language>
+            <name>x_1529556_agrinow1_fields</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 11:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 11:25:34</sys_updated_on>
+            <value>Sugar beet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sunflower</label>
+            <language>en</language>
+            <name>x_1529556_agrinow1_fields</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 11:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 11:25:34</sys_updated_on>
+            <value>Sunflower</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This script will automatically generate the ID of the field.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Automatic field ID generation</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var fieldNumber = g_form.getValue('number');
+    if (fieldNumber) {
+        g_form.setValue('field_id', fieldNumber.toString().slice(5));
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 11:34:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9470e9ef837c12104fe5c1d6feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automatic field ID generation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_client_9470e9ef837c12104fe5c1d6feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 11:34:32</sys_updated_on>
+        <table>x_1529556_agrinow1_fields</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

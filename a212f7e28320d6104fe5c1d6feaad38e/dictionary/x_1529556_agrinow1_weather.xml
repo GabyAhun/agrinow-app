@@ -3,15 +3,16 @@
         <element choice="1" label="Wind direction" max_length="40" name="wind_direction" type="choice">
             <choice/>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Temperature min" max_length="40" name="temperature_min" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Temperature min (°C)" max_length="40" name="temperature_min" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Sunshine duration" max_length="40" name="sunshine_duration" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sunshine duration (h)" max_length="40" name="sunshine_duration" type="string"/>
+        <element label="Precipitation (sum)" max_length="20" name="precipitation" type="decimal"/>
+        <element label="Max wind speed (km/h)" max_length="15" name="max_wind_speed" type="decimal"/>
         <element label="Rain" max_length="40" name="rain" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Temperature max" max_length="40" name="temperature_max" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Temperature max (°C)" max_length="40" name="temperature_max" type="string"/>
         <element label="Visibility" max_length="40" name="visibility" type="string"/>
         <element label="Temperature" max_length="40" name="temperature" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Precipitation (sum)" max_length="40" name="precipitation_sum" type="string"/>
     </element>
 </database>
