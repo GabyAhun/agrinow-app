@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1529556_agrinow1.managers" name="x_1529556_agrinow1.managers">b95e81e383f412104fe5c1d6feaad311</contains>
+        <role display_value="x_1529556_agrinow1.ceo" name="x_1529556_agrinow1.ceo">856e456f83b412104fe5c1d6feaad358</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 13:33:32</sys_created_on>
+        <sys_id>c0adfd27833852104fe5c1d6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1529556_agrinow1.managers.x_1529556_agrinow1.ceo</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_user_role_contains_c0adfd27833852104fe5c1d6feaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 13:33:32</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

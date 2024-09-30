@@ -2,10 +2,17 @@
     <element db_object_id="b5ec4c7a8364d6104fe5c1d6feaad30b" label="Fields" max_length="40" name="x_1529556_agrinow1_fields" type="collection">
         <element display="true" label="Harvest date" max_length="40" name="harvest_date" type="glide_date"/>
         <element label="Field ID" max_length="40" name="field_id" type="integer"/>
-        <element label="Sowing date" max_length="40" name="sowing_date" type="glide_date"/>
-        <element choice="1" label="Plant" max_length="40" name="plant" type="choice">
-            <choice/>
+        <element label="Sowing date" mandatory="true" max_length="40" name="sowing_date" type="glide_date"/>
+        <element choice="1" label="Plant" mandatory="true" max_length="40" name="plant" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corn" sequence="0" value="Corn"/>
+                <element inactive_on_update="false" label="Barley" sequence="2" value="Barley"/>
+                <element inactive_on_update="false" label="Sunflower" sequence="4" value="Sunflower"/>
+                <element inactive_on_update="false" label="Wheat" sequence="1" value="Wheat"/>
+                <element inactive_on_update="false" label="Sugar beet" sequence="3" value="Sugar beet"/>
+            </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Size (ha)" mandatory="true" max_length="20" name="size" type="decimal"/>
     </element>
 </database>

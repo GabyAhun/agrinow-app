@@ -4,7 +4,7 @@
         <active>true</active>
         <api_name>x_1529556_agrinow1.WeatherDataHandler</api_name>
         <caller_access/>
-        <client_callable>true</client_callable>
+        <client_callable>false</client_callable>
         <description>This script called by Weather Datas API. This API GET the 7 day forecast weather datas. &#13;
 This script will update the table or insert new record(s).</description>
         <name>WeatherDataHandler</name>
@@ -16,7 +16,7 @@ WeatherDataHandler.prototype = {
         try {
             var dailyData = getResponse.daily;
 
-            for (var i = 0; i < dailyData.time.length; i++) {
+            for (var i = 0; i <= dailyData.time.length; i++) {
                 var dateWithoutTime = dailyData.time[i].substring(0, 10);
 
                 var existingRecordsGR = new GlideRecord("x_1529556_agrinow1_weather");
@@ -34,7 +34,7 @@ WeatherDataHandler.prototype = {
 
 					// i want to see the duration in hours (default unit is sec)
                     newRecord.setValue('sunshine_duration', (dailyData.sunshine_duration[i] / 3600).toFixed(2));
-                    newRecord.setValue('precipitation_sum', dailyData.precipitation_sum[i]);
+                    newRecord.setValue('precipitation', dailyData.precipitation_sum[i]);
                     newRecord.setValue('max_wind_speed', dailyData.wind_speed_10m_max[i]);
 
                     newRecord.insert();
@@ -42,7 +42,7 @@ WeatherDataHandler.prototype = {
                     existingRecordsGR.setValue('temperature_max', dailyData.temperature_2m_max[i]);
                     existingRecordsGR.setValue('temperature_min', dailyData.temperature_2m_min[i]);
                     existingRecordsGR.setValue('sunshine_duration', (dailyData.sunshine_duration[i] / 3600).toFixed(2));
-                    existingRecordsGR.setValue('precipitation_sum', dailyData.precipitation_sum[i]);
+                    existingRecordsGR.setValue('precipitation', dailyData.precipitation_sum[i]);
                     existingRecordsGR.setValue('max_wind_speed', dailyData.wind_speed_10m_max[i]);
 
                     existingRecordsGR.update();
@@ -59,13 +59,13 @@ WeatherDataHandler.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-22 10:05:13</sys_created_on>
         <sys_id>d512de2d8338d6104fe5c1d6feaad301</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>WeatherDataHandler</sys_name>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name>sys_script_include_d512de2d8338d6104fe5c1d6feaad301</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-24 11:34:42</sys_updated_on>
+        <sys_updated_on>2024-09-28 13:55:15</sys_updated_on>
     </sys_script_include>
 </record_update>
