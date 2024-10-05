@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>Weekly email to AgriNow company employees</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-05 11:23:58</sys_created_on>
+        <sys_id>11f22539830112104fe5c1d6feaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weekly email to AgriNow company employees</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_email_11f22539830112104fe5c1d6feaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-05 11:23:58</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sys_script_email_11f22539830112104fe5c1d6feaad3bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Weekly email to AgriNow company employees&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-05 11:23:58&lt;/sys_created_on&gt;&lt;sys_id&gt;11f22539830112104fe5c1d6feaad3bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Weekly email to AgriNow company employees&lt;/sys_name&gt;&lt;sys_package display_value="AgriNow App" source="x_1529556_agrinow1"&gt;a212f7e28320d6104fe5c1d6feaad38e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AgriNow App"&gt;a212f7e28320d6104fe5c1d6feaad38e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_11f22539830112104fe5c1d6feaad3bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-05 11:23:58&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-430505512</payload_hash>
+        <record_name>Weekly email to AgriNow company employees</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-05 11:23:58</sys_created_on>
+        <sys_id>5a13e5f5830112104fe5c1d6feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1925c6c0e000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-05 11:23:58</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>5e13e5f5d9011210b739f6664305012a</update_guid>
+        <update_guid_history>5e13e5f5d9011210b739f6664305012a:-430505512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-05 11:43:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>1c4109fb7b1649409940d5ae43fcf141</sys_id>
+        <sys_metadata>11f22539830112104fe5c1d6feaad3bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weekly email to AgriNow company employees</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sys_script_email_11f22539830112104fe5c1d6feaad3bc</sys_update_name>
+        <sys_update_version display_value="sys_script_email_11f22539830112104fe5c1d6feaad3bc">5a13e5f5830112104fe5c1d6feaad32b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-05 11:43:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
