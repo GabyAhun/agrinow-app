@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>false</action_insert>
-        <action_update>false</action_update>
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
         <active>true</active>
-        <advanced_condition/>
+        <advanced_condition><![CDATA[var today = gs.nowDateTime();
+
+var weatherGR = new GlideRecord("x_1529556_agrinow1_weather");]]></advanced_condition>
         <affected_field_on_event/>
         <category display_value="AgriNow" name="AgriNow">f1d7a1f1838112104fe5c1d6feaad3a4</category>
         <collection>x_1529556_agrinow1_weather</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description/>
+        <description>THis emial will be sent out if the precipitation sum inserted with 0 value.</description>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -28,15 +30,19 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
-        <generation_type>triggered</generation_type>
-        <importance/>
+        <from>dravecz.gabor02@gmail.com</from>
+        <generation_type>engine</generation_type>
+        <importance>high</importance>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html/>
+        <message_html><![CDATA[<p>Good afternoon!</p>
+<p>we sending you the following tasks for the next week.</p>
+<p>Tanks for your work!</p>
+<p>&nbsp;</p>
+<p>Have a nice weekend!</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Weekly AgriNow email notification</name>
@@ -44,13 +50,13 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups/>
-        <recipient_users/>
-        <reply_to/>
+        <recipient_groups>5e4d41af833412104fe5c1d6feaad376,851dc12b83b412104fe5c1d6feaad3c7,f8ec092b83b412104fe5c1d6feaad34b</recipient_groups>
+        <recipient_users>b2cd471883b412104fe5c1d6feaad31f</recipient_users>
+        <reply_to>dravecz.gabor02@gmail.com</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>Summarization of the next week</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -58,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>46a7e571838112104fe5c1d6feaad3b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Weekly AgriNow email notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
@@ -66,7 +72,7 @@
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name>sysevent_email_action_46a7e571838112104fe5c1d6feaad3b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-05 11:45:36</sys_updated_on>
+        <sys_updated_on>2024-10-05 14:21:46</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
