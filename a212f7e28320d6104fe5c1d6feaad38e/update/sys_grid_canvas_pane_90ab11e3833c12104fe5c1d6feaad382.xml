@@ -4,19 +4,19 @@
         <height>16</height>
         <portal_widget display_value="Created 2024-09-28 04:05:00">50ab11e3833c12104fe5c1d6feaad381</portal_widget>
         <posx>0</posx>
-        <posy>0</posy>
+        <posy>10</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-28 11:05:00</sys_created_on>
         <sys_id>90ab11e3833c12104fe5c1d6feaad382</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>87e119af833812104fe5c1d6feaad399</sys_name>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_90ab11e3833c12104fe5c1d6feaad382</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-28 11:14:02</sys_updated_on>
+        <sys_updated_on>2024-10-11 16:31:15</sys_updated_on>
         <width>3</width>
     </sys_grid_canvas_pane>
 </record_update>

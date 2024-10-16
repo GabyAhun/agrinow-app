@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1529556_agrinow1.WeeklyTasksDataHandler</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Calculation of avearage temperature and avearage percipitation for the next week.&#13;
+This is the base for the automatic to do emails.</description>
+        <name>WeeklyTasksDataHandler</name>
+        <script><![CDATA[var WeeklyTasksDataHandler = Class.create();
+WeeklyTasksDataHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getWeatherDatas: function() {
+
+		const minAvgWater = 10;
+		const minAvgTemp = 20;
+		const maxAvgWind = 40;
+
+		// get forecast informations -> next week
+        var weatherDatas = new GlideRecord('x_1529556_agrinow1_weather');
+        weatherDatas.addQuery('date', ">", gs.now());
+        weatherDatas.query();
+
+		// final object
+        var obj = {};
+		obj.prec = 0;
+		obj.temp = 0;
+		obj.wind = 0;
+
+		// precipitation related variables
+        var prec = [];
+        var avgPrec = 0;
+        var sumPrec = 0;
+		// temperature related variables
+        var temp = [];
+        var avgTemp = 0;
+        var sumTemp = 0;
+
+		var wind = [];
+		var avgWind = 0;
+		var sumWind = 0;
+
+        while (weatherDatas.next()) {
+            prec.push(weatherDatas.precipitation);
+
+            var dailyAvgTemp = (weatherDatas.temperature_max + weatherDatas.temperature_min) / 2;
+            temp.push(dailyAvgTemp);
+
+            wind.push = weatherDatas.max_wind_speed;
+        }
+
+        for (var i = 0; i < prec.length; i++) {
+            sumPrec += prec[i];
+        }
+		for (var j = 0; j < temp.length; j++) {
+			sumTemp += temp[j];
+		}
+		for (var k = 0; k < wind.length; k++) {
+			sumWind += wind[k];
+		}
+
+		avgPrec = sumPrec / prec.length;
+		avgTemp = sumTemp / temp.length;
+		avgWind = sumWind / wind.length;
+
+		obj.prec = avgPrec;
+		obj.temp = avgTemp;
+		obj.wind = avgWind;
+
+        return (JSON.stringify(obj));
+    },
+
+    type: 'WeeklyTasksDataHandler'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 09:18:17</sys_created_on>
+        <sys_id>f259454c83d15e104fe5c1d6feaad35e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>WeeklyTasksDataHandler</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_include_f259454c83d15e104fe5c1d6feaad35e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 14:21:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

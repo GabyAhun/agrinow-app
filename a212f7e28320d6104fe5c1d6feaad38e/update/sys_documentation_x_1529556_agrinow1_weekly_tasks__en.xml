@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Weekly tasks" language="en" table="x_1529556_agrinow1_weekly_tasks">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Weekly tasks</label>
+            <language>en</language>
+            <name>x_1529556_agrinow1_weekly_tasks</name>
+            <plural>Weekly tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-12 09:07:46</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Weekly tasks</sys_name>
+            <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+            <sys_update_name>sys_documentation_x_1529556_agrinow1_weekly_tasks__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-12 09:07:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

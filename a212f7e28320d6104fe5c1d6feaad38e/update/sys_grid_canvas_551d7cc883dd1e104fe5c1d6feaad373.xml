@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="Fields">191d7cc883dd1e104fe5c1d6feaad372</legacy_page>
+        <name>New Tab 4</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 08:24:11</sys_created_on>
+        <sys_id>551d7cc883dd1e104fe5c1d6feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 4</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_grid_canvas_551d7cc883dd1e104fe5c1d6feaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 08:24:11</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

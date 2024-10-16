@@ -10,7 +10,7 @@
             <plural>Temperature max (°C)</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-21 12:16:38</sys_created_on>
+            <sys_created_on>2024-10-12 09:37:52</sys_created_on>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Temperature max (°C)</sys_name>
             <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
@@ -18,7 +18,7 @@
             <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
             <sys_update_name>sys_documentation_x_1529556_agrinow1_weather_temperature_max_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-24 11:01:55</sys_updated_on>
+            <sys_updated_on>2024-10-12 09:40:39</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
