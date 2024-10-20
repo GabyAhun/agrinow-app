@@ -2,7 +2,7 @@
     <sys_report action="INSERT_OR_UPDATE">
         <active>true</active>
         <additional_groupby/>
-        <aggregate>COUNT</aggregate>
+        <aggregate>AVG</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -46,10 +46,10 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>city</field>
-        <field_list>date,temperature_max,temperature_min,sunshine_duration,precipitation_sum,max_wind_speed</field_list>
+        <field/>
+        <field_list>date,precipitation,temperature_max,temperature_min,sunshine_duration_h,max_wind_speed</field_list>
         <filter/>
-        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <formatting_configuration>{"stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"temperature_max,AGGREGATION":{"showOriginalNumberInTooltip":true,"addValueInTooltip":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"groupingUsed":true,"decimalPrecision":2}},"table":"incident"}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -88,7 +88,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>null</set_color>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -99,30 +99,30 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
-        <show_zero>false</show_zero>
+        <show_zero>true</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield/>
+        <sumfield>temperature_min</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-28 10:26:04</sys_created_on>
-        <sys_id>c6b25da3837812104fe5c1d6feaad38a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Precipitation summary in the next few days</sys_name>
+        <sys_created_on>2024-10-19 13:53:02</sys_created_on>
+        <sys_id>fe7b4e56835952104fe5c1d6feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Min AVG temperature on the next week</sys_name>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
-        <sys_update_name>sys_report_c6b25da3837812104fe5c1d6feaad38a</sys_update_name>
+        <sys_update_name>sys_report_fe7b4e56835952104fe5c1d6feaad332</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-19 13:45:49</sys_updated_on>
+        <sys_updated_on>2024-10-19 13:53:02</sys_updated_on>
         <table>x_1529556_agrinow1_weather</table>
-        <title>Precipitation summary in the next few days</title>
+        <title>Min AVG temperature on the next week</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>precipitation</trend_field>
-        <type>hist</type>
+        <trend_field/>
+        <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>

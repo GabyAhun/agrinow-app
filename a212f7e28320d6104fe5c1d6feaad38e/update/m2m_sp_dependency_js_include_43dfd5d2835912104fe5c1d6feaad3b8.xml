@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_dependency display_value="AgriNow: Yeti Login Page">b39fd516839912104fe5c1d6feaad399</sp_dependency>
+        <sp_js_include display_value="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js">c7bf5916839912104fe5c1d6feaad3f4</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:42:28</sys_created_on>
+        <sys_id>43dfd5d2835912104fe5c1d6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow: Yeti Login Page.https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_43dfd5d2835912104fe5c1d6feaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:42:28</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="AgriNow: Yeti Login Page">b39fd516839912104fe5c1d6feaad399</sp_dependency>
+        <sp_widget display_value="Yeti Login">e8081d9683d512104fe5c1d6feaad316</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:43:09</sys_created_on>
+        <sys_id>0100ad16839912104fe5c1d6feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow: Yeti Login Page.Yeti Login</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_0100ad16839912104fe5c1d6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:43:09</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

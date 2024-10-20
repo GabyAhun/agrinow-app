@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=448000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=228264000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>agrinow_catalog_item_pesticides</internal_name>
-        <label_cache>[{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.description","label":"1 - Get Catalog Variables➛description","reference":"","reference_display":"description","type":"string","base_type":"string","usedInstances":{"237c1045-7567-43ae-a0f8-70e86e450327":["description"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"5396546d-87a5-46cb-9fad-d7457e9c1b98.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"b9b57971-242c-4dfb-a859-5b792163071f":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5e4d41af833412104fe5c1d6feaad376}}","label":"AgriNow Company CEO","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5396546d-87a5-46cb-9fad-d7457e9c1b98":["approval_conditions"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"4749d03c-3070-46c4-a5fa-dfdee2b0cab6":["requested_item"],"5396546d-87a5-46cb-9fad-d7457e9c1b98":["record"],"237c1045-7567-43ae-a0f8-70e86e450327":["ah_requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <label_cache>[{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.manager.email","label":"1 - Get Catalog Variables➛requested_by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"9f408ae6-5fa9-4fdd-9b6d-7cfd2700e931":["ah_cc"],"5ee97cfd-e2db-4153-aa05-81e344dff4dc":["ah_cc"]}},{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.email","label":"1 - Get Catalog Variables➛requested_by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"9f408ae6-5fa9-4fdd-9b6d-7cfd2700e931":["ah_to"],"5ee97cfd-e2db-4153-aa05-81e344dff4dc":["ah_to"]}},{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.description","label":"1 - Get Catalog Variables➛description","reference":"","reference_display":"description","type":"string","base_type":"string","usedInstances":{"237c1045-7567-43ae-a0f8-70e86e450327":["description"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"5396546d-87a5-46cb-9fad-d7457e9c1b98.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"b9b57971-242c-4dfb-a859-5b792163071f":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5e4d41af833412104fe5c1d6feaad376}}","label":"AgriNow Company CEO","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5396546d-87a5-46cb-9fad-d7457e9c1b98":["approval_conditions"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"4749d03c-3070-46c4-a5fa-dfdee2b0cab6":["requested_item"],"5396546d-87a5-46cb-9fad-d7457e9c1b98":["record"],"237c1045-7567-43ae-a0f8-70e86e450327":["ah_requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
         <master_snapshot>64c91bd183d112104fe5c1d6feaad336</master_snapshot>
         <name>AgriNow catalog item: Pesticides</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f60817dd835112104fe5c1d6feaad3f2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>AgriNow catalog item: Pesticides</sys_name>
         <sys_overrides/>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name>sys_hub_flow_f60817dd835112104fe5c1d6feaad3f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f60817dd835112104fe5c1d6feaad3f2"/>
@@ -52,18 +52,18 @@
         <active>true</active>
         <catalog_item/>
         <name/>
-        <run_flow_in>background</run_flow_in>
+        <run_flow_in/>
         <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c9c95bd183d112104fe5c1d6feaad39a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:09</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
     </sys_flow_catalog_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f60817dd835112104fe5c1d6feaad3f2"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=f60817dd835112104fe5c1d6feaad3f2^sys_idNOT IN12b993d183d112104fe5c1d6feaad3c0"/>
@@ -76,10 +76,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:58</sys_created_on>
         <sys_id>12b993d183d112104fe5c1d6feaad3c0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -164,14 +164,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:58</sys_created_on>
         <sys_id>ceb993d183d112104fe5c1d6feaad317</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -248,14 +248,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:58</sys_created_on>
         <sys_id>d2b993d183d112104fe5c1d6feaad39d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -271,7 +271,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d2b993d183d112104fe5c1d6feaad39d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f60817dd835112104fe5c1d6feaad3f2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f60817dd835112104fe5c1d6feaad3f2"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f60817dd835112104fe5c1d6feaad3f2^sys_idNOT IN1ab993d183d112104fe5c1d6feaad3c6,56b9d3d183d112104fe5c1d6feaad334,9ab9d3d183d112104fe5c1d6feaad3a0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f60817dd835112104fe5c1d6feaad3f2^sys_idNOT IN1ab993d183d112104fe5c1d6feaad3c6,56b9d3d183d112104fe5c1d6feaad334,9ab9d3d183d112104fe5c1d6feaad3a0,adceb89e831112104fe5c1d6feaad32c,e5ceb89e831112104fe5c1d6feaad31c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -288,10 +288,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:58</sys_created_on>
         <sys_id>1ab993d183d112104fe5c1d6feaad3c6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 13:59:33</sys_updated_on>
         <ui_id>4749d03c-3070-46c4-a5fa-dfdee2b0cab6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ab993d183d112104fe5c1d6feaad3c6"/>
@@ -378,10 +378,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:58</sys_created_on>
         <sys_id>56b9d3d183d112104fe5c1d6feaad334</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 13:59:33</sys_updated_on>
         <ui_id>5396546d-87a5-46cb-9fad-d7457e9c1b98</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=56b9d3d183d112104fe5c1d6feaad334"/>
@@ -526,16 +526,16 @@
         <display_text/>
         <flow display_value="AgriNow catalog item: Pesticides">f60817dd835112104fe5c1d6feaad3f2</flow>
         <generation_source/>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:59</sys_created_on>
         <sys_id>9ab9d3d183d112104fe5c1d6feaad3a0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 13:59:34</sys_updated_on>
         <ui_id>237c1045-7567-43ae-a0f8-70e86e450327</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ab9d3d183d112104fe5c1d6feaad3a0"/>
@@ -592,6 +592,212 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9ab9d3d183d112104fe5c1d6feaad3a0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9ab9d3d183d112104fe5c1d6feaad3a0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="AgriNow catalog item: Pesticides">f60817dd835112104fe5c1d6feaad3f2</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>adceb89e831112104fe5c1d6feaad32c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 13:59:34</sys_updated_on>
+        <ui_id>5ee97cfd-e2db-4153-aa05-81e344dff4dc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=adceb89e831112104fe5c1d6feaad32c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>adceb89e831112104fe5c1d6feaad32c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>69ceb89e831112104fe5c1d6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <value>Your request was Approved</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>adceb89e831112104fe5c1d6feaad32c</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>a5ceb89e831112104fe5c1d6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <value>&lt;p&gt;Your request has been approved.&lt;/p&gt;
+&lt;p&gt;We will process it soon.&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=adceb89e831112104fe5c1d6feaad32c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>adceb89e831112104fe5c1d6feaad32c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>adceb89e831112104fe5c1d6feaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>adceb89e831112104fe5c1d6feaad32c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>25ceb89e831112104fe5c1d6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>adceb89e831112104fe5c1d6feaad32c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>61ceb89e831112104fe5c1d6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>adceb89e831112104fe5c1d6feaad32c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>e9ceb89e831112104fe5c1d6feaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=adceb89e831112104fe5c1d6feaad32c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=adceb89e831112104fe5c1d6feaad32c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="AgriNow catalog item: Pesticides">f60817dd835112104fe5c1d6feaad3f2</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>b9b57971-242c-4dfb-a859-5b792163071f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>e5ceb89e831112104fe5c1d6feaad31c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 13:59:34</sys_updated_on>
+        <ui_id>9f408ae6-5fa9-4fdd-9b6d-7cfd2700e931</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e5ceb89e831112104fe5c1d6feaad31c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e5ceb89e831112104fe5c1d6feaad31c</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>adceb89e831112104fe5c1d6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <value>&lt;p&gt;We regret to inform you that your request has been rejected.&lt;/p&gt;
+&lt;p&gt;Please, discuss further details with your direct supervisor!&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e5ceb89e831112104fe5c1d6feaad31c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>e5ceb89e831112104fe5c1d6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <value>Your request was Rejected</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e5ceb89e831112104fe5c1d6feaad31c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>e5ceb89e831112104fe5c1d6feaad31c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>a5ceb89e831112104fe5c1d6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>e5ceb89e831112104fe5c1d6feaad31c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>2dceb89e831112104fe5c1d6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e5ceb89e831112104fe5c1d6feaad31c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>69ceb89e831112104fe5c1d6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e5ceb89e831112104fe5c1d6feaad31c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:17:54</sys_created_on>
+        <sys_id>adceb89e831112104fe5c1d6feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:17:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e5ceb89e831112104fe5c1d6feaad31c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e5ceb89e831112104fe5c1d6feaad31c"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f60817dd835112104fe5c1d6feaad3f2"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f60817dd835112104fe5c1d6feaad3f2^sys_idNOT IN92b9d3d183d112104fe5c1d6feaad36b,deb9d3d183d112104fe5c1d6feaad370"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -618,10 +824,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:59</sys_created_on>
         <sys_id>92b9d3d183d112104fe5c1d6feaad36b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <ui_id>b9b57971-242c-4dfb-a859-5b792163071f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -683,7 +889,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b9b57971-242c-4dfb-a859-5b792163071f</parent_ui_id>
@@ -691,10 +897,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:00:59</sys_created_on>
         <sys_id>deb9d3d183d112104fe5c1d6feaad370</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <ui_id>1d65b052-f507-4a28-9f94-be9037789774</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -768,7 +974,7 @@
         <description>This flow works under the Pesticies catalog item ordering process.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>agrinow_catalog_item_pesticides</internal_name>
-        <label_cache>[{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.description","label":"1 - Get Catalog Variables➛description","reference":"","reference_display":"description","type":"string","base_type":"string","usedInstances":{"237c1045-7567-43ae-a0f8-70e86e450327":["description"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"5396546d-87a5-46cb-9fad-d7457e9c1b98.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"b9b57971-242c-4dfb-a859-5b792163071f":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5e4d41af833412104fe5c1d6feaad376}}","label":"AgriNow Company CEO","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5396546d-87a5-46cb-9fad-d7457e9c1b98":["approval_conditions"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"4749d03c-3070-46c4-a5fa-dfdee2b0cab6":["requested_item"],"5396546d-87a5-46cb-9fad-d7457e9c1b98":["record"],"237c1045-7567-43ae-a0f8-70e86e450327":["ah_requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <label_cache>[{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.manager.email","label":"1 - Get Catalog Variables➛requested_by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"9f408ae6-5fa9-4fdd-9b6d-7cfd2700e931":["ah_cc"],"5ee97cfd-e2db-4153-aa05-81e344dff4dc":["ah_cc"]}},{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.email","label":"1 - Get Catalog Variables➛requested_by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"9f408ae6-5fa9-4fdd-9b6d-7cfd2700e931":["ah_to"],"5ee97cfd-e2db-4153-aa05-81e344dff4dc":["ah_to"]}},{"name":"4749d03c-3070-46c4-a5fa-dfdee2b0cab6.description","label":"1 - Get Catalog Variables➛description","reference":"","reference_display":"description","type":"string","base_type":"string","usedInstances":{"237c1045-7567-43ae-a0f8-70e86e450327":["description"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"5396546d-87a5-46cb-9fad-d7457e9c1b98.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"b9b57971-242c-4dfb-a859-5b792163071f":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5e4d41af833412104fe5c1d6feaad376}}","label":"AgriNow Company CEO","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5396546d-87a5-46cb-9fad-d7457e9c1b98":["approval_conditions"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"4749d03c-3070-46c4-a5fa-dfdee2b0cab6":["requested_item"],"5396546d-87a5-46cb-9fad-d7457e9c1b98":["record"],"237c1045-7567-43ae-a0f8-70e86e450327":["ah_requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
         <master>true</master>
         <name>AgriNow catalog item: Pesticides</name>
         <natlang/>
@@ -785,7 +991,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64c91bd183d112104fe5c1d6feaad336</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -793,7 +999,7 @@
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:07</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=64c91bd183d112104fe5c1d6feaad336"/>
@@ -808,10 +1014,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>7cc95bd183d112104fe5c1d6feaad30a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:10</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:08</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -837,7 +1043,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -880,7 +1086,7 @@
         <next_element/>
         <order>100</order>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -896,14 +1102,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:07</sys_created_on>
         <sys_id>a4c91bd183d112104fe5c1d6feaad339</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -921,7 +1127,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -980,14 +1186,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>ecc91bd183d112104fe5c1d6feaad38c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1003,7 +1209,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ecc91bd183d112104fe5c1d6feaad38c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=64c91bd183d112104fe5c1d6feaad336"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=64c91bd183d112104fe5c1d6feaad336"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=64c91bd183d112104fe5c1d6feaad336^sys_idNOT IN38c91bd183d112104fe5c1d6feaad3ef,acc91bd183d112104fe5c1d6feaad3cc,b4c95bd183d112104fe5c1d6feaad308"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=64c91bd183d112104fe5c1d6feaad336^sys_idNOT IN38c91bd183d112104fe5c1d6feaad3ef,54de3c9e831112104fe5c1d6feaad3e3,58de3c9e831112104fe5c1d6feaad3d7,acc91bd183d112104fe5c1d6feaad3cc,b4c95bd183d112104fe5c1d6feaad308"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1020,10 +1226,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>38c91bd183d112104fe5c1d6feaad3ef</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <ui_id>5396546d-87a5-46cb-9fad-d7457e9c1b98</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=38c91bd183d112104fe5c1d6feaad3ef"/>
@@ -1161,6 +1367,212 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="AgriNow catalog item: Pesticides">64c91bd183d112104fe5c1d6feaad336</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>54de3c9e831112104fe5c1d6feaad3e3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
+        <ui_id>5ee97cfd-e2db-4153-aa05-81e344dff4dc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=54de3c9e831112104fe5c1d6feaad3e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>54de3c9e831112104fe5c1d6feaad3e3</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:06</sys_created_on>
+        <sys_id>9cde3c9e831112104fe5c1d6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
+        <value>Your request was Approved</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>54de3c9e831112104fe5c1d6feaad3e3</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:06</sys_created_on>
+        <sys_id>d8de3c9e831112104fe5c1d6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
+        <value>&lt;p&gt;Your request has been approved.&lt;/p&gt;
+&lt;p&gt;We will process it soon.&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=54de3c9e831112104fe5c1d6feaad3e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>54de3c9e831112104fe5c1d6feaad3e3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>d0de3c9e831112104fe5c1d6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>54de3c9e831112104fe5c1d6feaad3e3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:06</sys_created_on>
+        <sys_id>58de3c9e831112104fe5c1d6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>54de3c9e831112104fe5c1d6feaad3e3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>94de3c9e831112104fe5c1d6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>54de3c9e831112104fe5c1d6feaad3e3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>10de3c9e831112104fe5c1d6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=54de3c9e831112104fe5c1d6feaad3e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=54de3c9e831112104fe5c1d6feaad3e3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="AgriNow catalog item: Pesticides">64c91bd183d112104fe5c1d6feaad336</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>b9b57971-242c-4dfb-a859-5b792163071f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>58de3c9e831112104fe5c1d6feaad3d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
+        <ui_id>9f408ae6-5fa9-4fdd-9b6d-7cfd2700e931</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=58de3c9e831112104fe5c1d6feaad3d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>58de3c9e831112104fe5c1d6feaad3d7</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>90de3c9e831112104fe5c1d6feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <value>Your request was Rejected</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>58de3c9e831112104fe5c1d6feaad3d7</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>dcde3c9e831112104fe5c1d6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <value>&lt;p&gt;We regret to inform you that your request has been rejected.&lt;/p&gt;
+&lt;p&gt;Please, discuss further details with your direct supervisor!&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58de3c9e831112104fe5c1d6feaad3d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>58de3c9e831112104fe5c1d6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>d4de3c9e831112104fe5c1d6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>58de3c9e831112104fe5c1d6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>5cde3c9e831112104fe5c1d6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>58de3c9e831112104fe5c1d6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>98de3c9e831112104fe5c1d6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>58de3c9e831112104fe5c1d6feaad3d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 08:18:05</sys_created_on>
+        <sys_id>14de3c9e831112104fe5c1d6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 08:18:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4749d03c-3070-46c4-a5fa-dfdee2b0cab6.requested_by.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58de3c9e831112104fe5c1d6feaad3d7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=58de3c9e831112104fe5c1d6feaad3d7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
@@ -1174,10 +1586,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>acc91bd183d112104fe5c1d6feaad3cc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <ui_id>4749d03c-3070-46c4-a5fa-dfdee2b0cab6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=acc91bd183d112104fe5c1d6feaad3cc"/>
@@ -1258,16 +1670,16 @@
         <display_text/>
         <flow display_value="AgriNow catalog item: Pesticides">64c91bd183d112104fe5c1d6feaad336</flow>
         <generation_source/>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>b4c95bd183d112104fe5c1d6feaad308</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <ui_id>237c1045-7567-43ae-a0f8-70e86e450327</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b4c95bd183d112104fe5c1d6feaad308"/>
@@ -1341,7 +1753,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b9b57971-242c-4dfb-a859-5b792163071f</parent_ui_id>
@@ -1349,10 +1761,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>24c91bd183d112104fe5c1d6feaad3c4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <ui_id>1d65b052-f507-4a28-9f94-be9037789774</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1384,10 +1796,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:08</sys_created_on>
         <sys_id>60c91bd183d112104fe5c1d6feaad3a6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 17:01:08</sys_updated_on>
+        <sys_updated_on>2024-10-19 08:18:06</sys_updated_on>
         <ui_id>b9b57971-242c-4dfb-a859-5b792163071f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1489,14 +1901,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>f60817dd835112104fe5c1d6feaad3f2</sys_id>
         <latest_snapshot>64c91bd183d112104fe5c1d6feaad336</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f60817dd835112104fe5c1d6feaad3f2^sys_idNOT INc1c95bd183d112104fe5c1d6feaad39b"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c1c95bd183d112104fe5c1d6feaad39b","name":"plan","plan_signature":null}}</plan>
         <plan_id>f60817dd835112104fe5c1d6feaad3f2</plan_id>
-        <snapshot>64c91bd183d112104fe5c1d6feaad336</snapshot>
+        <snapshot>0afc429e839952104fe5c1d6feaad3e1</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 17:01:09</sys_created_on>
         <sys_domain>global</sys_domain>
