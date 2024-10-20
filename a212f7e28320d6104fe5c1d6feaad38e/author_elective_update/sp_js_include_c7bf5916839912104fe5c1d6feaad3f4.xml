@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="DELETE">
+        <display_name>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</display_name>
+        <source>url</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:42:28</sys_created_on>
+        <sys_id>c7bf5916839912104fe5c1d6feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_ui_script/>
+        <sys_update_name>sp_js_include_c7bf5916839912104fe5c1d6feaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:42:28</sys_updated_on>
+        <url>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</url>
+    </sp_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sp_js_include_c7bf5916839912104fe5c1d6feaad3f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</display_name><source>url</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-19 10:42:28</sys_created_on><sys_id>c7bf5916839912104fe5c1d6feaad3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_ui_script/><sys_update_name>sp_js_include_c7bf5916839912104fe5c1d6feaad3f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-19 10:42:28</sys_updated_on><url>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</url></sp_js_include></record_update>]]></payload>
+        <payload_hash>-557083162</payload_hash>
+        <record_name>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:42:28</sys_created_on>
+        <sys_id>8bdfd5d2835912104fe5c1d6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a45f17c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:42:28</sys_updated_on>
+        <type>JS Include</type>
+        <update_guid>8fdfd5d29f591210416743a615ab6fb6</update_guid>
+        <update_guid_history>8fdfd5d29f591210416743a615ab6fb6:-557083162</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js">ab8b31a6835112104fe5c1d6feaad3b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 07:21:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_js_include">sp_js_include</sys_db_object>
+        <sys_id>16b75d0a499c4580b105240682880400</sys_id>
+        <sys_metadata>c7bf5916839912104fe5c1d6feaad3f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sp_js_include_c7bf5916839912104fe5c1d6feaad3f4</sys_update_name>
+        <sys_update_version display_value="sp_js_include_c7bf5916839912104fe5c1d6feaad3f4">8bdfd5d2835912104fe5c1d6feaad3b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 07:21:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
