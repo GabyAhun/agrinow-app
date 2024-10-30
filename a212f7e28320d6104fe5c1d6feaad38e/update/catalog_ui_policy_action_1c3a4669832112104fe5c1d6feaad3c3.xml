@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Coffee order">f86bd5d9832112104fe5c1d6feaad361</catalog_item>
+        <catalog_variable>IO:1ecdd55d836112104fe5c1d6feaad388</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 16:07:48</sys_created_on>
+        <sys_id>1c3a4669832112104fe5c1d6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requested_for</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1c3a4669832112104fe5c1d6feaad3c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 16:07:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set all the variables read only on backend">f0990629832112104fe5c1d6feaad3db</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>requested_for</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=1c3a4669832112104fe5c1d6feaad3c3"/>
+</record_update>
