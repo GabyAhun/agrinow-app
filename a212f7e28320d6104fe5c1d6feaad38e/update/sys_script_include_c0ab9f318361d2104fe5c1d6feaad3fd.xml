@@ -2,14 +2,16 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_1529556_agrinow1.CoffeeOrderAutomation</api_name>
+        <api_name>x_1529556_agrinow1.CoffeeOrderAutomatically</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>Script include for automation of coffee ordering</description>
-        <name>CoffeeOrderAutomation</name>
-        <script><![CDATA[// Varibales that is will use in this script
+        <description>This script is for order coffee automatically.</description>
+        <name>CoffeeOrderAutomatically</name>
+        <script><![CDATA[var CoffeeOrderAutomatically = Class.create();
 
-var CoffeeOrderAutomation = Class.create();
+
+// Varibales that is will use in this script
+
 CoffeeOrderAutomation.QUANITIES = [1, 5, 10, 50];
 CoffeeOrderAutomation.COFFEE_TYPES = ['Arabica', 'Robusta', 'Liberica', 'Excelsa'];
 CoffeeOrderAutomation.SSR = 'f86bd5d9832112104fe5c1d6feaad361'; // sys_id of the Coffee Order catalog item
@@ -18,9 +20,9 @@ CoffeeOrderAutomation.REASON_DID_NOT_ENOJY = ["The grinding was inconsistent", "
 ];
 CoffeeOrderAutomation.DID_ENJOY = ["yes", "no", "idk"];
 
-
-CoffeeOrderAutomation.prototype = {
-    initialize: function() {},
+CoffeeOrderAutomatically.prototype = {
+    initialize: function() {
+    },
 
     // random index calculation
     _chooseRandom: function(array) {
@@ -77,20 +79,10 @@ CoffeeOrderAutomation.prototype = {
             conf = JSON.parse(gs.getProperty(propName));
         }
 
-        var today = new Date();
-        today.setDate(today.getDate() + 2);
-        var year = today.getFullYear();
-        var month = ('0' + (today.getMonth() + 1)).slice(-2);
-        var day = ('0' + today.getDate()).slice(-2);
-        var formattedDate = year + '-' + month + '-' + day;
-
-        var todayAfter2Days = new Date();
-        todayAfter2Days.setDate(todayAfter2Days.getDate() + 2);
-        var year2 = todayAfter2Days.getFullYear();
-        var month2 = ('0' + (todayAfter2Days.getMonth() + 1)).slice(-2);
-        var day2 = ('0' + todayAfter2Days.getDate()).slice(-2);
-        var formattedDate2 = year2 + '-' + month2 + '-' + day2;
-
+        var gdt = new GlideDate();
+        var today = gdt.getDisplayValue();
+        gdt.addDaysLocalTime(2);
+        var later2Days = gdt.getDisplayValue();
 
         var users = this._getUsers();
 
@@ -112,8 +104,8 @@ CoffeeOrderAutomation.prototype = {
                 variables: {
                     coffee_type: this._select(conf, 'coffee_type', this._chooseRandom(CoffeeOrderAutomation.COFFEE_TYPES)),
                     quantity: this._select(conf, 'quantity', this._chooseRandom(CoffeeOrderAutomation.QUANITIES)),
-                    desired_delivery_date: this._select(conf, 'desired_delivery_date', formattedDate),
-                    last_accepted_delivery_date: this._select(conf, 'last_accepted_delivery_date', formattedDate2),
+                    desired_delivery_date: this._select(conf, 'desired_delivery_date', today),
+                    last_accepted_delivery_date: this._select(conf, 'last_accepted_delivery_date', later2Days),
                     did_you_enjoyed_your_previous_order: this._select(conf, 'did_you_enjoyed_your_previous_order', enjoyValue),
                     why_didn_t_you_enjoy_your_previous_order: this._select(conf, 'why_didn_t_you_enjoy_your_previous_order', complaintment),
                     requested_for: this._select(conf, 'requested_for', randomUser),
@@ -131,19 +123,20 @@ CoffeeOrderAutomation.prototype = {
             cart.checkoutCart();
         }
     },
-    type: 'CoffeeOrderAutomation'
+
+    type: 'CoffeeOrderAutomatically'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-29 16:44:22</sys_created_on>
-        <sys_id>6242522983a112104fe5c1d6feaad346</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>CoffeeOrderAutomation</sys_name>
+        <sys_created_on>2024-10-30 16:45:10</sys_created_on>
+        <sys_id>c0ab9f318361d2104fe5c1d6feaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CoffeeOrderAutomatically</sys_name>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
-        <sys_update_name>sys_script_include_6242522983a112104fe5c1d6feaad346</sys_update_name>
+        <sys_update_name>sys_script_include_c0ab9f318361d2104fe5c1d6feaad3fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 10:02:50</sys_updated_on>
+        <sys_updated_on>2024-10-30 16:45:10</sys_updated_on>
     </sys_script_include>
 </record_update>
