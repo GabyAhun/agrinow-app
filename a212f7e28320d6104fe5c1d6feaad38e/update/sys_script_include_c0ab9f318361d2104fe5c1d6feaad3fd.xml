@@ -79,7 +79,7 @@ CoffeeOrderAutomatically.prototype = {
             conf = JSON.parse(gs.getProperty(propName));
         }
 
-        var gdt = new GlideDate();
+        var gdt = new GlideDateTime().getDisplayValue();
         var today = gdt.getDisplayValue();
         gdt.addDaysLocalTime(2);
         var later2Days = gdt.getDisplayValue();
@@ -130,13 +130,13 @@ CoffeeOrderAutomatically.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-30 16:45:10</sys_created_on>
         <sys_id>c0ab9f318361d2104fe5c1d6feaad3fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>CoffeeOrderAutomatically</sys_name>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name>sys_script_include_c0ab9f318361d2104fe5c1d6feaad3fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-30 16:45:10</sys_updated_on>
+        <sys_updated_on>2024-11-01 13:36:45</sys_updated_on>
     </sys_script_include>
 </record_update>
