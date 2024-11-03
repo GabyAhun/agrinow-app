@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="DELETE">
+        <active>true</active>
+        <breakdown_source/>
+        <color/>
+        <disable_multiple_element>false</disable_multiple_element>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>AgriNow CEO Dashboard</name>
+        <no_bulk_migration>false</no_bulk_migration>
+        <no_tabs>false</no_tabs>
+        <notification_link_label/>
+        <notification_link_url/>
+        <notification_text/>
+        <order/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <restrict_to_roles>x_1529556_agrinow1.ceo,admin</restrict_to_roles>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 13:24:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1984469283d552104fe5c1d6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow CEO Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>pa_dashboards_1984469283d552104fe5c1d6feaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 13:24:03</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>pa_dashboards_1984469283d552104fe5c1d6feaad3cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards"><pa_dashboards action="INSERT_OR_UPDATE"><active>true</active><breakdown_source/><color/><disable_multiple_element>false</disable_multiple_element><group/><groups/><is_breakdown>false</is_breakdown><managed_breakdown/><managed_publisher/><name>AgriNow CEO Dashboard</name><no_bulk_migration>false</no_bulk_migration><no_tabs>false</no_tabs><notification_link_label/><notification_link_url/><notification_text/><order/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><restrict_to_roles>x_1529556_agrinow1.ceo,admin</restrict_to_roles><role_override>true</role_override><roles/><should_migrate_permissions>false</should_migrate_permissions><sys_class_name>pa_dashboards</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-19 13:24:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1984469283d552104fe5c1d6feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AgriNow CEO Dashboard</sys_name><sys_overrides/><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>pa_dashboards_1984469283d552104fe5c1d6feaad3cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-19 13:24:03</sys_updated_on><users/><visible_to>2</visible_to></pa_dashboards></record_update>]]></payload>
+        <payload_hash>1751694225</payload_hash>
+        <record_name>AgriNow CEO Dashboard</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 13:24:04</sys_created_on>
+        <sys_id>dad4025683d552104fe5c1d6feaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a4f309be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 13:24:04</sys_updated_on>
+        <type>Dashboard</type>
+        <update_guid>ded402566ed5521021c1ba3775e254d2</update_guid>
+        <update_guid_history>ded402566ed5521021c1ba3775e254d2:1751694225</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AgriNow CEO Dashboard">6a6f224b832552104fe5c1d6feaad3a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 10:41:12</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards">pa_dashboards</sys_db_object>
+        <sys_id>1559f6b9bc6d44f886c2bebf907c1a40</sys_id>
+        <sys_metadata>1984469283d552104fe5c1d6feaad3cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow CEO Dashboard</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>pa_dashboards_1984469283d552104fe5c1d6feaad3cf</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_1984469283d552104fe5c1d6feaad3cf">dad4025683d552104fe5c1d6feaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 10:41:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
