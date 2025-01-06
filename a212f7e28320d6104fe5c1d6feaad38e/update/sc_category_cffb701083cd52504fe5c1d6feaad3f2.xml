@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
     <sc_category action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description/>
+        <description>You can order Agriculture accessories you want.</description>
         <entitlement_script/>
         <header_icon/>
         <homepage_image>912cbcdc838d52504fe5c1d6feaad37b</homepage_image>
@@ -21,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 16:42:38</sys_created_on>
         <sys_id>cffb701083cd52504fe5c1d6feaad3f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Agriculture Assets</sys_name>
         <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
         <sys_update_name>sc_category_cffb701083cd52504fe5c1d6feaad3f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 16:43:14</sys_updated_on>
+        <sys_updated_on>2024-10-23 09:21:53</sys_updated_on>
         <title>Agriculture Assets</title>
     </sc_category>
     <sys_translated_text action="delete_multiple" query="documentkey=cffb701083cd52504fe5c1d6feaad3f2"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56cb822d832112104fe5c1d6feaad357" label="Coffee orders" max_length="40" name="x_1529556_agrinow1_coffee_orders" type="collection">
+        <element label="Desired delivery date" max_length="40" name="desired_delivery_date" type="glide_date"/>
+        <element label="Coffee type" max_length="40" name="coffee_type" type="string"/>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Latest accepted delivery date" max_length="40" name="latest_accepted_delivery_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Catalog task" max_length="32" name="catalog_task" reference="sc_task" type="reference"/>
+        <index name="index">
+            <element name="catalog_task"/>
+        </index>
+        <index name="index2">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>

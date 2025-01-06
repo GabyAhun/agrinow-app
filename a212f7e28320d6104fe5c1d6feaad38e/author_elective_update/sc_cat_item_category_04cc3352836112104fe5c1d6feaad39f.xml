@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Coffee order">40ccff12836112104fe5c1d6feaad32a</sc_cat_item>
+        <sc_category display_value="Agriculture Assets">cffb701083cd52504fe5c1d6feaad3f2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 08:23:38</sys_created_on>
+        <sys_id>04cc3352836112104fe5c1d6feaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agriculture Assets.Coffee order</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sc_cat_item_category_04cc3352836112104fe5c1d6feaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 08:23:38</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sc_cat_item_category_04cc3352836112104fe5c1d6feaad39f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Coffee order">40ccff12836112104fe5c1d6feaad32a</sc_cat_item><sc_category display_value="Agriculture Assets">cffb701083cd52504fe5c1d6feaad3f2</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-01 08:23:38</sys_created_on><sys_id>04cc3352836112104fe5c1d6feaad39f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Agriculture Assets.Coffee order</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>sc_cat_item_category_04cc3352836112104fe5c1d6feaad39f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-01 08:23:38</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>852885813</payload_hash>
+        <record_name>Agriculture Assets.Coffee order</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 08:23:38</sys_created_on>
+        <sys_id>4ccc3352836112104fe5c1d6feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192e6d2a8200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 08:23:38</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>40cc3352be611210e7c9332c4db00fa2</update_guid>
+        <update_guid_history>40cc3352be611210e7c9332c4db00fa2:852885813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Agriculture Assets.Coffee order">f0fc7752836112104fe5c1d6feaad3ff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 08:24:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>01484354217e4b689d4b466cd6095a90</sys_id>
+        <sys_metadata>04cc3352836112104fe5c1d6feaad39f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agriculture Assets.Coffee order</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_04cc3352836112104fe5c1d6feaad39f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_04cc3352836112104fe5c1d6feaad39f">4ccc3352836112104fe5c1d6feaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 08:24:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

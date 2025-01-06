@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
+    <sp_dependency action="DELETE">
+        <module/>
+        <name>AgriNow: Yeti Login Page</name>
+        <page_load>false</page_load>
+        <sp_portals/>
+        <sys_class_name>sp_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:41:50</sys_created_on>
+        <sys_id>b39fd516839912104fe5c1d6feaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow: Yeti Login Page</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sp_dependency_b39fd516839912104fe5c1d6feaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:41:50</sys_updated_on>
+    </sp_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sp_dependency_b39fd516839912104fe5c1d6feaad399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency"><sp_dependency action="INSERT_OR_UPDATE"><module/><name>AgriNow: Yeti Login Page</name><page_load>false</page_load><sp_portals/><sys_class_name>sp_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-19 10:41:50</sys_created_on><sys_id>b39fd516839912104fe5c1d6feaad399</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AgriNow: Yeti Login Page</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>sp_dependency_b39fd516839912104fe5c1d6feaad399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-19 10:41:50</sys_updated_on></sp_dependency></record_update>]]></payload>
+        <payload_hash>1271232030</payload_hash>
+        <record_name>AgriNow: Yeti Login Page</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 10:41:50</sys_created_on>
+        <sys_id>f5bfdd16835912104fe5c1d6feaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a45e82ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 10:41:50</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>b9bfdd16e0591210b6b6699e52c7c3e8</update_guid>
+        <update_guid_history>b9bfdd16e0591210b6b6699e52c7c3e8:1271232030</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AgriNow: Yeti Login Page">257b7166835112104fe5c1d6feaad3c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 07:21:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_dependency">sp_dependency</sys_db_object>
+        <sys_id>6d8c5311c18d4d34bc7da078955b61e1</sys_id>
+        <sys_metadata>b39fd516839912104fe5c1d6feaad399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AgriNow: Yeti Login Page</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sp_dependency_b39fd516839912104fe5c1d6feaad399</sys_update_name>
+        <sys_update_version display_value="sp_dependency_b39fd516839912104fe5c1d6feaad399">f5bfdd16835912104fe5c1d6feaad3e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 07:21:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

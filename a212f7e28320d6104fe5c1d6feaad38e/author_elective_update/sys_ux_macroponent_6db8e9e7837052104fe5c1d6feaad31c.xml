@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "f552e6a932780394b6f06c14071aa115",
+            "type": "MACROPONENT"
+        },
+        "elementId": "dashboard_1",
+        "elementLabel": "Dashboard 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "claagnddeeoqaacciirddwggyggoqshhikii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "3db82d6b837052104fe5c1d6feaad30a"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "claagnddeeoqaacciisddwggyddkfaaffxig",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "dashboardSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "defaultDashboard": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "defaultDrilldowns": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "editMode": {
+                "binding": {
+                    "address": [
+                        "edit"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "element": {
+                "binding": {
+                    "address": [
+                        "element"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "experienceId": {
+                "binding": {
+                    "address": [
+                        "appId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "filterId": {
+                "binding": {
+                    "address": [
+                        "filter"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "globalFilters": {
+                "binding": {
+                    "address": [
+                        "unifiedFilters"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "hideCreateNewButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDashboardPicker": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEditButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideShareButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showPrintPreview": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "tabSysId": {
+                "binding": {
+                    "address": [
+                        "tabSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userInfo": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "height": ""
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description>Provides the ability to display multiple kinds of information, including data visualizations, filters, and text on a single screen with one or more tabs. Use dashboards to create a story with data that you can share with multiple users.</description>
+        <dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "dashboard_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Incient dashboard</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Element",
+        "mandatory": false,
+        "name": "element",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "filter",
+        "mandatory": false,
+        "name": "filter",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "tabSysId",
+        "mandatory": false,
+        "name": "tabSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Edit",
+        "mandatory": false,
+        "name": "edit",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "Unified Filters are sent to the dashboard serve as filters for the visualizations within the dashboard.\n\nExample: JSON.stringify({\"encodedQueries\":{\"incident\":\"category=inquiry^state=7\"},\"parFilters\":[{\"order\":0,\"label\":\"Priority\",\"type\":\"choice\",\"apply_to\":[\"incident.priority\"],\"values\":[\"3\",\"5\"]}]})",
+        "fieldType": "json",
+        "id": "unifiedFilters",
+        "label": "unifiedFilters",
+        "name": "unifiedFilters",
+        "translatable": false
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 12:02:10</sys_created_on>
+        <sys_id>6db8e9e7837052104fe5c1d6feaad31c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Incient dashboard</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6db8e9e7837052104fe5c1d6feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 12:03:23</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=6db8e9e7837052104fe5c1d6feaad31c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sys_ux_macroponent_6db8e9e7837052104fe5c1d6feaad31c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[
+    {
+        "definition": {
+            "id": "f552e6a932780394b6f06c14071aa115",
+            "type": "MACROPONENT"
+        },
+        "elementId": "dashboard_1",
+        "elementLabel": "Dashboard 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "claagnddeeoqaacciirddwggyggoqshhikii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "3db82d6b837052104fe5c1d6feaad30a"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "claagnddeeoqaacciisddwggyddkfaaffxig",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "dashboardSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "defaultDashboard": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "defaultDrilldowns": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "editMode": {
+                "binding": {
+                    "address": [
+                        "edit"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "element": {
+                "binding": {
+                    "address": [
+                        "element"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "experienceId": {
+                "binding": {
+                    "address": [
+                        "appId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "filterId": {
+                "binding": {
+                    "address": [
+                        "filter"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "globalFilters": {
+                "binding": {
+                    "address": [
+                        "unifiedFilters"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "hideCreateNewButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDashboardPicker": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEditButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideShareButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showPrintPreview": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "tabSysId": {
+                "binding": {
+                    "address": [
+                        "tabSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userInfo": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "height": ""
+        }
+    }
+]</composition><da_relay_models/><data>[
+    
+]</data><description>Provides the ability to display multiple kinds of information, including data visualizations, filters, and text on a single screen with one or more tabs. Use dashboards to create a story with data that you can share with multiple users.</description><dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "dashboard_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout><macroponent_dependencies/><name>Incient dashboard</name><output_prop_mapping/><props>[
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Element",
+        "mandatory": false,
+        "name": "element",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "filter",
+        "mandatory": false,
+        "name": "filter",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "tabSysId",
+        "mandatory": false,
+        "name": "tabSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Edit",
+        "mandatory": false,
+        "name": "edit",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "Unified Filters are sent to the dashboard serve as filters for the visualizations within the dashboard.\n\nExample: JSON.stringify({\"encodedQueries\":{\"incident\":\"category=inquiry^state=7\"},\"parFilters\":[{\"order\":0,\"label\":\"Priority\",\"type\":\"choice\",\"apply_to\":[\"incident.priority\"],\"values\":[\"3\",\"5\"]}]})",
+        "fieldType": "json",
+        "id": "unifiedFilters",
+        "label": "unifiedFilters",
+        "name": "unifiedFilters",
+        "translatable": false
+    }
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config>{}</root_component_config><root_component_definition/><schema_version>1.0.0</schema_version><state_properties>[
+    
+]</state_properties><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-28 12:02:10</sys_created_on><sys_id>6db8e9e7837052104fe5c1d6feaad31c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Incient dashboard</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>sys_ux_macroponent_6db8e9e7837052104fe5c1d6feaad31c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-28 12:03:23</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=6db8e9e7837052104fe5c1d6feaad31c"/></record_update>]]></payload>
+        <payload_hash>-1671238581</payload_hash>
+        <record_name>Incient dashboard</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 12:03:23</sys_created_on>
+        <sys_id>9bf8a12f837052104fe5c1d6feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19238839f450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 12:03:23</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>53f8a12f89705210e9c3e0d32886a28d</update_guid>
+        <update_guid_history>53f8a12f89705210e9c3e0d32886a28d:-1671238581,42b82d6bba705210d729dd696e94c5be:1990905573,b9b82d6bd6705210eff1eb4b9787a729:1560728779,b5b82d6b31705210ee1d103c2d36f003:-1205765269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-11 16:36:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>01836edb70144eb2801886f7ef510dc4</sys_id>
+        <sys_metadata>6db8e9e7837052104fe5c1d6feaad31c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incient dashboard</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_6db8e9e7837052104fe5c1d6feaad31c</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_6db8e9e7837052104fe5c1d6feaad31c">9bf8a12f837052104fe5c1d6feaad38d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-11 16:36:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

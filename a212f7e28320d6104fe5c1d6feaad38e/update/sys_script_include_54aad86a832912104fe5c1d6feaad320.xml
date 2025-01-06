@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1529556_agrinow1.AutomaticCoffeeOrder</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AutomaticCoffeeOrder</name>
+        <script><![CDATA[var AutomaticCoffeeOrder = Class.create();
+
+AutomaticCoffeeOrder.TYPE = ['Arabica', 'Robusta', 'Excelsa', 'Liberica'];
+AutomaticCoffeeOrder.QUANTITY = [1, 5, 10, 50];
+AutomaticCoffeeOrder.ENJOY = ['Yes', 'No', "I don't know / This is my first order"];
+AutomaticCoffeeOrder.COMPLAINMENT = ['I was not tasty', 'It was underroasted', 'Taste was bad'];
+
+AutomaticCoffeeOrder.prototype = {
+    initialize: function() {},
+
+    _chooseRandom: function(array) {
+        return array[Math.floor(Math.random() * array.length)];
+    },
+
+    _getUsers: function() {
+        var users = [];
+
+        var userMemberGR = new GlideRecord('sys_user');
+        userMemberGR.addEncodedQuery("company=f6788758833412104fe5c1d6feaad39d"); // AgriNow company employees
+        userMemberGR.query();
+
+        while (userMemberGR.next()) {
+            users.push(userMemberGR.getUniqueValue());
+        }
+        return users;
+    },
+
+    orderCoffee: function(number) {
+
+
+        var today = new Date();
+        today.setDate(today.getDate() + 2);
+        var year = today.getFullYear();
+        var month = ('0' + (today.getMonth() + 1)).slice(-2);
+        var day = ('0' + today.getDate()).slice(-2);
+        var formattedDate = year + '-' + month + '-' + day;
+
+        var todayAfter2Days = new Date();
+        todayAfter2Days.setDate(todayAfter2Days.getDate() + 2);
+        var year2 = todayAfter2Days.getFullYear();
+        var month2 = ('0' + (todayAfter2Days.getMonth() + 1)).slice(-2);
+        var day2 = ('0' + todayAfter2Days.getDate()).slice(-2);
+        var formattedDate2 = year2 + '-' + month2 + '-' + day2;
+
+
+        var employees = this._getUsers();
+
+
+        var enjoyment = this._chooseRandom(AutomaticCoffeeOrder.ENJOY);
+        var complainment = "";
+        if (enjoyment == "No") {
+            complainment = this._chooseRandom(AutomaticCoffeeOrder.COMPLAINMENT);
+        }
+
+        for (var i = 0; i < number; i++) {
+            var newCoffeeOrderGR = new GlideRecord(' x_1529556_agrinow1_coffee_orders');
+            newCoffeeOrderGR.initialize();
+            newCoffeeOrderGR.coffee_type = this._chooseRandom(AutomaticCoffeeOrder.TYPE);
+            newCoffeeOrderGR.quantity = this._chooseRandom(AutomaticCoffeeOrder.QUANTITY);
+            newCoffeeOrderGR.desired_delivery_date = formattedDate;
+            newCoffeeOrderGR.latest_accepted_delivery_date = formattedDate2;
+            newCoffeeOrder.requested_for = this._chooseRandom(employees);
+            var orderNumber = newCoffeeOrder.insert();
+
+            if (enjoyment == "No") {
+                var newComplainmentGR = new GlideRecord(' x_1529556_agrinow1_coffee_order_complaints');
+                newComplainmentGR.initialize();
+                newComplainmentGR.complaining_user = orderNumber.requested_for;
+                newComplainmentGR.email_address = orderNumber.requested_for.email.toString();
+                newComplainmentGR.complaint = complainment;
+                newComplainmentGR.coffee_order = orderNumber;
+                newComplainmentGR.insert();
+            }
+        }
+
+    },
+
+    type: 'AutomaticCoffeeOrder'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 10:34:42</sys_created_on>
+        <sys_id>54aad86a832912104fe5c1d6feaad320</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AutomaticCoffeeOrder</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_include_54aad86a832912104fe5c1d6feaad320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 11:04:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

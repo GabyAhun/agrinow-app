@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_attribute">
+    <sys_security_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition>Group=5e4d41af833412104fe5c1d6feaad376^ORGroup=851dc12b83b412104fe5c1d6feaad3c7^ORGroup=f8ec092b83b412104fe5c1d6feaad34b</condition>
+        <description>Auto Created Attribute - ACL_375f693683e112104fe5c1d6feaad32d</description>
+        <is_dynamic>true</is_dynamic>
+        <is_localized>true</is_localized>
+        <is_system>false</is_system>
+        <label>ACL_375f693683e112104fe5c1d6feaad32d</label>
+        <lookup_table/>
+        <lookup_table_column/>
+        <name>x_1529556_agrinow1__ACL_375f693683e112104fe5c1d6feaad32d</name>
+        <script/>
+        <sys_class_name>sys_security_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 11:25:27</sys_created_on>
+        <sys_id>89ffa9be83e112104fe5c1d6feaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1529556_agrinow1__ACL_375f693683e112104fe5c1d6feaad32d</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_security_attribute_89ffa9be83e112104fe5c1d6feaad3a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 11:25:27</sys_updated_on>
+        <type>compound</type>
+    </sys_security_attribute>
+</record_update>

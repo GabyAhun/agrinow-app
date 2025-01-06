@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="DELETE">
+        <element>name</element>
+        <id/>
+        <label>New Tab 2</label>
+        <language>en</language>
+        <name>pa_tabs</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 10:13:35</sys_created_on>
+        <sys_id>f69f392f839d12104fe5c1d6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 2</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_translated_f69f392f839d12104fe5c1d6feaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:13:35</sys_updated_on>
+        <value>fe9ff52f839d12104fe5c1d6feaad3c2New Tab 2</value>
+    </sys_translated>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</application>
+        <file_path/>
+        <instance_id>0754c44ceb3b82d4cbdefceacad0cd4f</instance_id>
+        <instance_name>dev281856</instance_name>
+        <name>sys_translated_f69f392f839d12104fe5c1d6feaad375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated"><sys_translated action="INSERT_OR_UPDATE"><element>name</element><id/><label>New Tab 2</label><language>en</language><name>pa_tabs</name><sys_class_name>sys_translated</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-23 10:13:35</sys_created_on><sys_id>f69f392f839d12104fe5c1d6feaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 2</sys_name><sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package><sys_policy/><sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope><sys_update_name>sys_translated_f69f392f839d12104fe5c1d6feaad375</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-23 10:13:35</sys_updated_on><value>fe9ff52f839d12104fe5c1d6feaad3c2New Tab 2</value></sys_translated></record_update>]]></payload>
+        <payload_hash>-343899438</payload_hash>
+        <record_name>New Tab 2</record_name>
+        <reverted_from/>
+        <source>f93609cb832012104fe5c1d6feaad388</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 10:13:35</sys_created_on>
+        <sys_id>f29f392f839d12104fe5c1d6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b8de16750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:13:35</sys_updated_on>
+        <type>Translated Name / Field</type>
+        <update_guid>f69f392f709d1210bf352e3d1bf61f76</update_guid>
+        <update_guid_history>f69f392f709d1210bf352e3d1bf61f76:-343899438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 10:13:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_translated">sys_translated</sys_db_object>
+        <sys_id>700bfff8e3674b29ba5c6ed2c24be8b9</sys_id>
+        <sys_metadata>f69f392f839d12104fe5c1d6feaad375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 2</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_scope_delete display_value="">0e40484d057a465cad3eae6e57be17c4</sys_scope_delete>
+        <sys_update_name>sys_translated_f69f392f839d12104fe5c1d6feaad375</sys_update_name>
+        <sys_update_version display_value="sys_translated_f69f392f839d12104fe5c1d6feaad375">f29f392f839d12104fe5c1d6feaad377</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:13:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

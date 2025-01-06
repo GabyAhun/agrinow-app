@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Medicine or dietary supplement:">b4d49d67831112104fe5c1d6feaad345</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 08:15:25</sys_created_on>
+        <sys_id>7ee591a7831112104fe5c1d6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dietary supplement</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>question_choice_7ee591a7831112104fe5c1d6feaad377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 08:15:25</sys_updated_on>
+        <text>Dietary supplement</text>
+        <value>dietary_supplement</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=7ee591a7831112104fe5c1d6feaad377"/>
+</record_update>

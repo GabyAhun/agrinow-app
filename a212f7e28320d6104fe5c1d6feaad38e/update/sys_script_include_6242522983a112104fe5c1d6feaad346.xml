@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1529556_agrinow1.CoffeeOrderAutomation</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script include for automation of coffee ordering</description>
+        <name>CoffeeOrderAutomation</name>
+        <script><![CDATA[// Varibales that is will use in this script
+
+var CoffeeOrderAutomation = Class.create();
+CoffeeOrderAutomation.QUANITIES = [1, 5, 10, 50];
+CoffeeOrderAutomation.COFFEE_TYPES = ['Arabica', 'Robusta', 'Liberica', 'Excelsa'];
+CoffeeOrderAutomation.SSR = 'f86bd5d9832112104fe5c1d6feaad361'; // sys_id of the Coffee Order catalog item
+CoffeeOrderAutomation.REASON_DID_NOT_ENOJY = ["The grinding was inconsistent", "It was burnt.", "It was underroasted.", "It was stale.",
+    "Less coffee was delivered.", "Nothing, I'm just having a bad day and making it your problem."
+];
+CoffeeOrderAutomation.DID_ENJOY = ["yes", "no", "idk"];
+
+
+CoffeeOrderAutomation.prototype = {
+    initialize: function() {},
+
+    // random index calculation
+    _chooseRandom: function(array) {
+        return array[Math.floor(Math.random() * array.length)];
+    },
+
+    // choose a user based on the country of their location -> Hungary or Germany
+    _getUsers: function() {
+        var users = [];
+
+        var userMemberGR = new GlideRecord('sys_user');
+        userMemberGR.addEncodedQuery("company=f6788758833412104fe5c1d6feaad39d"); // agrinow company employees
+        userMemberGR.query();
+
+        while (userMemberGR.next()) {
+            users.push(userMemberGR.getUniqueValue());
+        }
+        return users;
+    },
+
+    // get information about users
+    _getUserData: function(userID) {
+        var userGr = new GlideRecord('sys_user');
+        if (userGr.get(userID)) {
+            return {
+                manager: userGr.getValue('manager').sys_id,
+            };
+        }
+        return {
+            manager: null,
+        };
+    },
+
+    /*
+    * Description: its determine if a property is added as a parameter
+    			   it returns object
+     
+    * Parameters: obj -> object what we are working on
+    			  a -> string parameter, which is the system property name
+    			  b -> value if there is no system property additional parameter, determined by functions
+     
+    * Returns:
+    	which value we are using a or b
+    	any object
+    */
+    _select: function(obj, a, b) {
+        return obj.hasOwnProperty(a) ? obj[a] : b;
+    },
+
+    // creation of automatic orders -->> CALLABLE FUNCTION!!!
+    orderCoffee: function(number, propName) {
+        var conf = {};
+        if (propName) {
+            conf = JSON.parse(gs.getProperty(propName));
+        }
+
+        var today = new Date();
+        today.setDate(today.getDate() + 2);
+        var year = today.getFullYear();
+        var month = ('0' + (today.getMonth() + 1)).slice(-2);
+        var day = ('0' + today.getDate()).slice(-2);
+        var formattedDate = year + '-' + month + '-' + day;
+
+        var todayAfter2Days = new Date();
+        todayAfter2Days.setDate(todayAfter2Days.getDate() + 2);
+        var year2 = todayAfter2Days.getFullYear();
+        var month2 = ('0' + (todayAfter2Days.getMonth() + 1)).slice(-2);
+        var day2 = ('0' + todayAfter2Days.getDate()).slice(-2);
+        var formattedDate2 = year2 + '-' + month2 + '-' + day2;
+
+
+        var users = this._getUsers();
+
+        for (var i = 0; i < number; i++) {
+
+            var randomUser = this._chooseRandom(users);
+            var userInfo = this._getUserData(randomUser);
+
+            var enjoyValue = this._chooseRandom(CoffeeOrderAutomation.DID_ENJOY);
+            var complaintment = "";
+            if (enjoyValue == 'no') {
+                complaintment = this._chooseRandom(CoffeeOrderAutomation.REASON_DID_NOT_ENOJY);
+            }
+
+            // set up the variables for the request
+            var request = {
+                sysparm_id: conf.SSR || CoffeeOrderAutomation.SSR,
+                sysparm_quantity: 1,
+                variables: {
+                    coffee_type: this._select(conf, 'coffee_type', this._chooseRandom(CoffeeOrderAutomation.COFFEE_TYPES)),
+                    quantity: this._select(conf, 'quantity', this._chooseRandom(CoffeeOrderAutomation.QUANITIES)),
+                    desired_delivery_date: this._select(conf, 'desired_delivery_date', formattedDate),
+                    last_accepted_delivery_date: this._select(conf, 'last_accepted_delivery_date', formattedDate2),
+                    did_you_enjoyed_your_previous_order: this._select(conf, 'did_you_enjoyed_your_previous_order', enjoyValue),
+                    why_didn_t_you_enjoy_your_previous_order: this._select(conf, 'why_didn_t_you_enjoy_your_previous_order', complaintment),
+                    requested_for: this._select(conf, 'requested_for', randomUser),
+                    manager: this._select(conf, 'manager', userInfo.manager),
+                    automated_order: this._select(conf, 'automated_order', 'Yes')
+                }
+            };
+
+            gs.log(request);
+
+            var cart = new sn_sc.CartJS();
+
+            cart.addToCart(request);
+
+            cart.checkoutCart();
+        }
+    },
+    type: 'CoffeeOrderAutomation'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 16:44:22</sys_created_on>
+        <sys_id>6242522983a112104fe5c1d6feaad346</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>CoffeeOrderAutomation</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>sys_script_include_6242522983a112104fe5c1d6feaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 10:02:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

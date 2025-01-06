@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="New Tab 3">430d7cc883dd1e104fe5c1d6feaad34b</canvas_page>
+        <name>8b0d7cc883dd1e104fe5c1d6feaad34dAnimals</name>
+        <page display_value="Animals">760d7c4883dd1e104fe5c1d6feaad3ce</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 08:24:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b0d7cc883dd1e104fe5c1d6feaad34d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>8b0d7cc883dd1e104fe5c1d6feaad34dAnimals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>pa_tabs_8b0d7cc883dd1e104fe5c1d6feaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 08:24:09</sys_updated_on>
+    </pa_tabs>
+</record_update>

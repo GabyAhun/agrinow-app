@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="20f6050483d15e104fe5c1d6feaad3f2" label="Weekly tasks" max_length="40" name="x_1529556_agrinow1_weekly_tasks" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="255" name="short_description" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Task" max_length="255" name="task" type="string_full_utf8"/>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="97acca2d832112104fe5c1d6feaad34b" label="Coffee order complaints" max_length="40" name="x_1529556_agrinow1_coffee_order_complaints" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Catalog task" max_length="32" name="catalog_task" reference="sc_task" type="reference"/>
+        <element label="Complaining user" max_length="32" name="complaining_user" reference="sys_user" type="reference"/>
+        <element label="Complaint" max_length="500" name="complaint" type="string"/>
+        <element label="Email address" max_length="40" name="email_address" type="string"/>
+        <element label="Coffee order" max_length="32" name="coffee_order" reference="x_1529556_agrinow1_coffee_orders" type="reference"/>
+        <index name="index">
+            <element name="catalog_task"/>
+        </index>
+        <index name="index2">
+            <element name="coffee_order"/>
+        </index>
+        <index name="index3">
+            <element name="complaining_user"/>
+        </index>
+    </element>
+</database>

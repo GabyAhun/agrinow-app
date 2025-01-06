@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name/>
+        <height>600</height>
+        <logged_on>false</logged_on>
+        <name>Weekly tasks iFrame</name>
+        <sizing>expand</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 11:15:38</sys_created_on>
+        <sys_id>9bd3e46683ed12104fe5c1d6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weekly tasks iFrame</sys_name>
+        <sys_package display_value="AgriNow App" source="x_1529556_agrinow1">a212f7e28320d6104fe5c1d6feaad38e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgriNow App">a212f7e28320d6104fe5c1d6feaad38e</sys_scope>
+        <sys_update_name>content_block_iframe_9bd3e46683ed12104fe5c1d6feaad32f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 11:15:38</sys_updated_on>
+        <url>x_1529556_agrinow1_weekly_tasks_list.do</url>
+        <width>400</width>
+    </content_block_iframe>
+</record_update>
